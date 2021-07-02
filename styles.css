@@ -2,6 +2,18 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Yomogi", cursive;
+}
+h1 {
+  color: #426696;
+  font-weight: 600;
+  font-size: 3rem;
+  opacity: 0.8;
+}
+h2 {
+  color: #658ec6;
+  font-weight: 500;
+  opacity: 0.8;
 }
 
 main {
@@ -65,5 +77,25 @@ main {
   border-radius: 2rem;
 }
 .games {
-  flex: 2;
+  flex: 3;
+}
+.link {
+  display: flex;
+  margin: 2rem 0rem;
+  padding: 1rem 1rem;
+  align-items: center;
+}
+.link h2 {
+  padding: 0rem 1rem;
+}
+.pro {
+  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+  border-radius: 2rem;
+  padding: 2rem;
+  display: flex;
+}
+.pro h2 {
+  width: 40%;
+  color: white;
+  font-weight: 600;
 }
